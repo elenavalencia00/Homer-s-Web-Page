@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homer's Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+</style>
+</head>
+<body>
+    <h1 class="title">Homer's Web Page</h1>
+
+  <div id="curtain" onclick="openCurtain()">
+      <div class="curtain-left"></div>
+      <div class="curtain-right"></div>
+      <h1 class="curtain-title">Homer's <br> Web Page</h1>
+    </div>
+
+   <audio id="bgMusic" loop>
+  <source src="assets/sound.mp3" type="audio/mpeg">
+</audio>
+
+ 
+<img id="img1" class="img" src="assets/reloj.gif" alt="">
+<img id="img2" class="img" src="assets/worm.gif" alt="">
+<img id="img3" class="img" src="assets/tostadora.gif" alt="">
+<img id="img4" class="img" src="assets/tostadora.gif" alt="">
+<img id="img5" class="img" src="assets/boca.gif" alt="">
+<img id="img6" class="img" src="assets/tostadora.gif" alt="">
+<img id="img7" class="img" src="assets/campana.gif" alt="">
+<img id="img8" class="img" src="assets/reloj.gif" alt="">
+<img id="img9" class="img" src="assets/worm.gif" alt="">
+<img id="img10" class="img" src="assets/worm.gif" alt="">
+<img id="img11" class="img" src="assets/jesus.gif" alt="">
+<img id="img12" class="img" src="assets/worm.gif" alt="">
+<img id="img13" class="img" src="assets/tostadora.gif" alt="">
+<img id="img14" class="img" src="assets/campana.gif" alt="">
+<img id="img15" class="img" src="assets/boca.gif" alt="">
+
+<script>
+  function openCurtain() {
+    document.getElementById('curtain').classList.add('open');
+    document.getElementById('bgMusic').play();
+  }
+</script>
+
+</body>
+</html>
