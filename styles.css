@@ -171,7 +171,7 @@ body {
   width: 18.19vw;
   height: 29.69vw;
   transform: translate(-4.17vw, -22vw);
-  left: calc(41.25vw + 4vw);
+  left: calc(41.25vw);
   top: calc(28.82vw + 8vh);
 }
 
